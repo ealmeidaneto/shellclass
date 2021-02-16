@@ -16,3 +16,5 @@ if [[ "${UID}" -eq 0 ]]; then
 else
   echo 'You are not root.'
 fi
+
+echo "$(hostname)"
