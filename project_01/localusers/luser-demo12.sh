@@ -17,6 +17,7 @@ if userdel "${USER}"; then
 
     echo "The account ${USER} was deleted."
     exit 0
+
 else
 
     echo "The account ${USER} was NOT deleted."
